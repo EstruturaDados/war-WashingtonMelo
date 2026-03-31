@@ -14,3 +14,6 @@ struct Territorio {
     char corExercito [10];
     int qtdTropas;
 };
+
+// Constante Global (Qtd total de territórios)
+#define TOTAL_TERRITORIOS 5
