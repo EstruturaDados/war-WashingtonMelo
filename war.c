@@ -7,3 +7,10 @@
 // Inclusão de bibliotecas necessárias
 #include <stdio.h>
 #include <string.h>
+
+// Definição da struct e variáveis para representar um território
+struct Territorio {
+    char nome [30];
+    char corExercito [10];
+    int qtdTropas;
+};
